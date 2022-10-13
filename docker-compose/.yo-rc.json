@@ -1,0 +1,11 @@
+{
+  "generator-jhipster": {
+    "appsFolders": ["america"],
+    "clusteredDbApps": {},
+    "directoryPath": "/Users/admin/Projects/git/",
+    "gatewayType": "SpringCloudGateway",
+    "jwtSecretKey": "OTdlMWM3ZjgwNGEyYWRkOGQyYjIyY2RlZjEzMDc1OGMxMDFjMjdiMGVhNmE0NWRkZTlhMjdjM2RkMGRlYWM0NzhjMWJhZjg2MGY5YjVkMzZjNmE0NjFjMGJmYWNiNTQ3OWRiZA==",
+    "monitoring": "no",
+    "serviceDiscoveryType": false
+  }
+}

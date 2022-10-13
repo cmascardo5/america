@@ -1,0 +1,21 @@
+entity Member {
+  firstName String maxlength(35)
+  lastName String
+  birthDate LocalDate
+  gender String
+  address String
+  city String
+  state String
+  zip String
+  county String
+  country String
+  tobaccoUseIndicator Boolean
+  substanceAbuseIndicator Boolean
+  lastUpdateDatetime LocalDate
+}
+
+paginate * with pagination
+search * with elasticsearch
+service * with serviceClass
+// monolith * with america
+clientRootFolder * with america

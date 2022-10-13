@@ -1,0 +1,72 @@
+{
+  "applications": "*",
+  "changelogDate": "20221013055446",
+  "clientRootFolder": "america",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "member",
+  "fields": [
+    {
+      "fieldName": "firstName",
+      "fieldType": "String",
+      "fieldValidateRules": ["maxlength"],
+      "fieldValidateRulesMaxlength": "35"
+    },
+    {
+      "fieldName": "lastName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "birthDate",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "gender",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "address",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "city",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "state",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "zip",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "county",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "country",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "tobaccoUseIndicator",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "substanceAbuseIndicator",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "lastUpdateDatetime",
+      "fieldType": "LocalDate"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Member",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "searchEngine": "elasticsearch",
+  "service": "serviceClass"
+}
